@@ -24,7 +24,7 @@ function App() {
       setLoading(false)
     }catch(err){
       console.log(err);
-      alert("Failed data fetch:" + {err})
+      alert("failed data fetch")
     }
   }
   
