@@ -23,7 +23,8 @@ function App() {
       setData(res.data)
       setLoading(false)
     }catch(err){
-      console.log(err)
+      console.log(err);
+      alert("Failed data fetch:" + {err})
     }
   }
   
