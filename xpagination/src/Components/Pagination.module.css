@@ -1,0 +1,19 @@
+.paginationCSS{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.btn{
+    background-color:  rgb(51, 143, 114);
+    border: 0px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.pageNum{
+    background-color: rgb(51, 143, 114);
+    border: 0px;
+    padding: 15px;
+    border-radius: 10px;
+}
